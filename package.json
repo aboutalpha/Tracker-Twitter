@@ -1,10 +1,13 @@
 {
-  "name": "Location-Tracking-System-Vendor-Twitter",
+  "name": "Tracker-Twitter",
   "version": "1.0.0",
   "main": "index.js",
-  "repository": "git@github.com-GW0602Teaching:GW0602Teaching/Location-Tracking-System-Vendor-Twitter.git",
-  "author": "xuyang0602 <wang.xuyang0602@gmail.com>",
+  "repository": "git@github.com:michaelluoyunhan/Tracker-Twitter.git",
+  "author": "Michael Luo",
   "license": "MIT",
+  "scripts": {
+    "start": "node \"build/index.js\""
+  },
   "dependencies": {
     "@aws-sdk/util-dynamodb": "^3.417.0",
     "aws-sdk": "^2.1462.0",
