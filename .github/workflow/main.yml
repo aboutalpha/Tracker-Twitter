@@ -3,7 +3,7 @@ name: 'Build Twitter service'
 on:
   push:
     branches:
-      - 20_lb
+      - main
   pull_request:
 permissions:
   id-token: write
