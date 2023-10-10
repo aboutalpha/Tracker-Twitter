@@ -1,17 +1,17 @@
 variable "aws_vpc_id" {
   type          = string
   description   = "AWS VPC ID deployed from network repo"
-  default       = "vpc-07f00de02e8d24e90" # CHANGE TO YOUR OWN VPC ID
+  default       = "vpc-00f3f1c0cea137f98" # CHANGE TO YOUR OWN VPC ID
 }
 
 variable "aws_public_subnet_ids" {
   description = "public subnet ids"
-  default     = ["subnet-0d5bc41ad5a00ddbc", "subnet-0e95ae59b84d540cd"] # CHANGE TO YOUR SUBNET IDS
+  default     = ["subnet-043622f009e9f483b", "subnet-0aa7e81d82293b8cd"] # CHANGE TO YOUR SUBNET IDS
 }
 
 variable "aws_private_subnet_ids" {
   description = "private subnet ids"
-  default     = ["subnet-007cf08e5b4270707", "subnet-0707c6621af08c977"] # CHANGE TO YOUR SUBNET IDS
+  default     = ["subnet-041572773d550ded8", "subnet-0e7e5e086c4dfb223"] # CHANGE TO YOUR SUBNET IDS
 }
 
 variable "aws_region" {}
@@ -29,7 +29,7 @@ variable "ecs_twitter_env_secrets_key" {
 
 variable "ecs_twitter_env_secrets_folder" {
   description = "Secrets S3 folder"
-  default = "gw-vendor-twitter-secrets"
+  default = "ml-vendor-twitter-secrets"
 }
 
 variable "dynamodb_vendor_table_name" {
