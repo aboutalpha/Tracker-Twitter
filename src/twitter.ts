@@ -21,6 +21,7 @@ const STREAM_URL =
 // Set rules for the Twitter stream
 export const setRules = async (rules: Rule[]) => {
   try {
+    console.log(TOKEN);
     const res = await needle(
       'post',
       RULES_URL,
